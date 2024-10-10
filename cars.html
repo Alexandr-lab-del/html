@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Машины - Магазин товаров</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar {
+            min-width: 200px;
+            max-width: 200px;
+            background-color: #f8f9fa;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            display: block;
+            padding: 10px 20px;
+            color: #333;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background-color: #e9ecef;
+            color: #000;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .product-card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Боковая панель -->
+    <div class="sidebar">
+        <a href="index.html">Главная</a>
+        <a href="categories.html">Категории</a>
+        <a href="orders.html">Заказы</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="profile.html">Профиль</a>
+    </div>
+
+    <!-- Основной контент -->
+    <div class="content">
+        <h1>Машины</h1>
+        <div class="row">
+            <!-- Карточка товара 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://40.img.avito.st/image/1/1.vVq_WLa4EbOJ8dO2yVahbZH5E7UB-ZO7yfwTsQ_xGbkJ.r9QdAQ45p9vZW4L0EH1Rr9qRgGr1tUkCxcGsmxrndxo" class="card-img-top" alt="Товар 2">
+                    <div class="card-body">
+                        <h5 class="card-title">ВАЗ (LADA) 2107</h5>
+                        <p class="card-text">1500 $</p>
+                        <p class="card-text">1.6 MT, 2007, 160 000 км</p>
+                        <a href="#" class="btn btn-primary">Купить</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Карточка товара 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://opis-cdn.tinkoffjournal.ru/mercury/23-most-expensive-cars.jpg?preset=image_760w" class="card-img-top" alt="Товар 2">
+                    <div class="card-body">
+                        <h5 class="card-title">1963 Ferrari 250 GT SWB California Spyder</h5>
+                        <p class="card-text">17 875 000 $</p>
+                        <p class="card-text">V12 объемом 3 л и мощностью 280 л. с. Максимальная скорость — 270 км/ч. Разгон с места до 100 км/ч — 7,2 секунды.</p>
+                        <a href="#" class="btn btn-primary">Купить</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Карточка товара 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://opis-cdn.tinkoffjournal.ru/mercury/17-most-expensive-cars.jpg?preset=image_760w" class="card-img-top" alt="Товар 2">
+                    <div class="card-body">
+                        <h5 class="card-title">1960 Ferrari 250 GT SWB Berlinetta Competizione</h5>
+                        <p class="card-text">10 989 500 $</p>
+                        <p class="card-text">V12 объемом 3 л и мощностью 280 л. с. Максимальная скорость — 270 км/ч. Разгон с места до 100 км/ч — 7,2 секунды.</p>
+                        <a href="#" class="btn btn-primary">Купить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подключение Bootstrap JS и зависимостей -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
